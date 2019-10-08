@@ -27,7 +27,9 @@ php -r "if (hash_file('sha384', 'composer-setup.php') === 'a5c698ffe4b8e849a443b
 php composer-setup.php
 php -r "unlink('composer-setup.php');"
 ```
-* Via Terminal `echo 'export PATH="$PATH:$HOME/.composer/vendor/bin"' >> ~/.bashrc`
+* Via Terminal `sudo echo 'export PATH="$PATH:$HOME/.composer/vendor/bin"' >> ~/.bashrc`
+* Close Terminal
+* Via Terminal `source ~/.bashrc`
 
 ### Valet
 
