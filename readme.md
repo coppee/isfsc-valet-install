@@ -31,7 +31,7 @@ php -r "unlink('composer-setup.php');"
 
 ### Valet
 
-* Download via Terminal `composer global require laravel/valet`
+* Download via Terminal `php composer.phar global require laravel/valet`
 * Install via Terminal `valet install`
 * Via Terminal `mkdir ~/Sites`
 * Via Terminal `cd ~/Sites`
