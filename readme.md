@@ -5,7 +5,8 @@
 
 ### Homebrew
 (Test if Homebrew is installed  via Terminal `brew -v`)
-* Install Homebrew via Terminal `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+* Install Homebrew via Terminal 
+`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
 or
 
