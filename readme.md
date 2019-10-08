@@ -4,9 +4,11 @@
 * Open Terminal (command + space + "Terminal")
 
 ### Homebrew
-* Test if Homebrew is installed  via Terminal `brew -v`
+(Test if Homebrew is installed  via Terminal `brew -v`)
 * Install Homebrew via Terminal `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+
 or
+
 * Update Homebrew via Terminal `brew update`
 
 ### PHP
@@ -33,7 +35,7 @@ php -r "unlink('composer-setup.php');"
 
 ### Valet
 
-* Download via Terminal `php composer.phar global require laravel/valet`
+* Download via Terminal `composer global require laravel/valet`
 * Install via Terminal `valet install`
 * Via Terminal `mkdir ~/Sites`
 * Via Terminal `cd ~/Sites`
